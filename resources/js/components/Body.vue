@@ -11,7 +11,7 @@ import RightBody from './RightBody';
 export default {
     components: {
         LeftBody,
-        RightBody
+        RightBody,
     },
 };
 </script>
