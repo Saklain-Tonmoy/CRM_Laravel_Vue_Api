@@ -1,15 +1,19 @@
 <template>
-    <div class="container">
-        <div class="card">
-            <div class="card-body">Welcome, this is my first Vue Component!!!</div>
-        </div>
+    <div id="body">
+        <LeftBody />
+        <RightBody />
     </div>
 </template>
 
 <script>
+import LeftBody from './LeftBody';
+import RightBody from './RightBody';
 export default {
-
-}
+    component: {
+        LeftBody,
+        RightBody
+    },
+};
 </script>
 
 <style>
