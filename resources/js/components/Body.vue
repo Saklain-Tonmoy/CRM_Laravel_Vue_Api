@@ -9,7 +9,7 @@
 import LeftBody from './LeftBody';
 import RightBody from './RightBody';
 export default {
-    component: {
+    components: {
         LeftBody,
         RightBody
     },
